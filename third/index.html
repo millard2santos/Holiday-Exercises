@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body class="text-xl mt-20">
+        <form class="container mx-auto flex flex-col items-center gap-6" action="">
+            <label for="city">Ciudad</label>
+            <select class="border border-black rounded-md p-0.5" name="city" id="city">
+                <option value="barcelona">Barcelona</option>
+                <option value="valencia">Valencia</option>
+                <option value="madrid">Madrid</option>
+                <option value="sevilla">Sevilla</option>
+            </select>
+            <label for="night">Numero de noches</label>
+            <input class="border border-black rounded-md py-1 px-2" type="number" name="night" id="night" min="0">
+            <label for="car">Numero de dias de alquiler de coche</label>
+            <input class="border border-black rounded-md py-1 px-2" type="number" name="car" id="car" min="0">
+            <input class="border border-black rounded-md py-1 px-2" type="submit" value="Calcular coste">
+            <p class="font-bold text-2xl">Coste: <span>0</span>$</p>
+        </form>
+    </div>
+    <script src="./main.js"> </script>
+</body>
+</html>
