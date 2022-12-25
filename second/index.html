@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../output.css">
+</head>
+
+<body>
+    <div class="container flex flex-col items-center gap-6 mx-auto px-20">
+        <h1 class="text-3xl">To Do App</h1>
+        <form class="py-5 border rounded-md border-black border-solid bg-transparent flex flex-col gap-4 px-20"
+            action="">
+            <label for="list" class="text-2xl">Type a new thing to do</label>
+            <input class=" p-1 border border-black rounded-md" type="text" name="list" id="list">
+            <div class="flex gap-6 justify-center">
+                <input class="border rounded-md border-black w-24 cursor-pointer" type="submit" name="submit"
+                    value="Add">
+                <div class="clear border rounded-md border-black w-24 cursor-pointer text-center">Clear</div>
+            </div>
+        </form>
+        <span class="self-start text-xl">List:</span>
+        <ul class="self-start list-disc flex flex-col gap-4">
+            <!-- <li>
+                <div class="divstyle">
+                    <p>Hola</p>
+                    <button class="removebutton">Remove</button>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
